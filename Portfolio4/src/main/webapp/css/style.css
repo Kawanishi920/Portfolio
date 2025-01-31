@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* ログインフォーム全体のスタイル */
+.form-container {
+	margin: 0 auto;
+	text-align: center;
+	/* コンテナ内の要素を中央揃え */
+	display: flex;
+	/* Flexboxレイアウトにする */
+	flex-direction: column;
+	/* 縦方向に要素を並べる */
+	justify-content: center;
+	/* 縦方向の中央に配置 */
+	align-items: center;
+	/* 横方向の中央に配置 */
+	height: 100vh;
+	/* 画面の高さを利用して中央に固定 */
+}
+
+.form-container h1,
+.form-container label,
+.form-container input,
+.form-container button,
+.form-container a {
+	margin: 10px;
+	/* 各要素間の余白 */
+}
+
+
+.login-form {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* 以下、元のCSS */
+/* エラーメッセージのスタイル */
+.error-message {
+	color: red;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* ラベルのスタイル */
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* 入力フィールドのスタイル */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+/* ボタンのスタイル */
+button[type="submit"] {
+	background-color: rgb(0, 128, 255);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+/* 新規登録リンクのスタイル */
+a {
+	text-decoration: none;
+	color: #333;
+	font-size: 16pt;
+
+}
+
+/* 新規登録リンクにカーソルが触れた時のスタイル */
+a:hover {
+	color: rgb(0, 0, 255);
+	text-decoration: underline;
+}
+
+/* 新規登録リンクのコンテナ */
+.register-link-container {
+	text-align: center;
+	margin-top: 20px;
+	/* 新規登録リンクとフォームの間の余白 */
+}
+
+/* jspの中央レイアウト */
+.center {
+	margin: 0 auto;
+	align-items: center;
+}
+.center-container {
+  text-align: center;
+}
+
+/* 背景色 */
+body {
+	display: flex;
+	background-image: linear-gradient(90deg, rgba(212, 255, 198, 1) 29%, rgba(184, 255, 160, 1) 46%, rgba(204, 201, 119, 1) 64%, rgba(255, 155, 36, 1) 79%, rgba(19, 22, 105, 1) 86%, rgba(115, 149, 194, 1) 91%, rgba(209, 255, 194, 1) 98%);
+}
+
+p {
+	font-size: 16pt;
+}
